@@ -1,0 +1,21 @@
+# Node modules
+node_modules
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Production build of React (can be generated during the build process)
+build
+# System files
+.DS_Store
+
+# IDE or editor config files
+.idea
+ .vscode
+
+# Log files
+*.log
+
+# Temporary files
+*.bak
+*.tmp

@@ -1,0 +1,26 @@
+version: 1
+applications:
+  - appRoot: .  # Changed from 'dist' to '.' to point to repository root
+    backend:
+      phases:
+        build:
+          commands:
+            - npm install
+            - npm run build
+      artifacts:
+        baseDirectory: dist  # Output directory for built files
+        files:
+          - '**/*'
+    frontend:
+      phases:
+        build:
+          commands:
+            - npm install
+            - npm run build
+        deploy:
+          commands:
+            - cp -r template/* $AMP_CI/CD_OUTPUT_DIR
+      artifacts:
+        baseDirectory: template
+        files:
+          - '**/*'

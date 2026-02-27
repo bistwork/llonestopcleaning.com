@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+    <meta charset="utf-8">
+    <title>Terms and Conditions - LLone Stop Cleaning</title>
+    <meta name="description" content="Terms and Conditions for LLone Stop Cleaning. Website usage policies, privacy, and liability disclaimer.">
+    <meta name="keywords" content="terms, conditions, disclaimer, liability, privacy, website usage, LLone Stop Cleaning">
+    <meta name="author" content="Createx Studio">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="assets/js/theme-switcher.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="assets/favicon/safari-pinned-tab.svg" color="#6366f1">
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#080032">
+    <meta name="msapplication-config" content="assets/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" media="screen" href="assets/vendor/boxicons/css/boxicons.min.css">
+    <link rel="stylesheet" media="screen" href="assets/vendor/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" media="screen" href="assets/css/theme.min.css">
+    <style>
+        .page-loading {
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            -webkit-transition: all .4s .2s ease-in-out;
+            transition: all .4s .2s ease-in-out;
+            background-color: #fff;
+            opacity: 0;
+            visibility: hidden;
+            z-index: 9999;
+        }
+        [data-bs-theme="dark"] .page-loading {
+            background-color: #0b0f19;
+        }
+        .page-loading.active {
+            opacity: 1;
+            visibility: visible;
+        }
+        .page-loading-inner {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 100%;
+            text-align: center;
+            -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+            -webkit-transition: opacity .2s ease-in-out;
+            transition: opacity .2s ease-in-out;
+            opacity: 0;
+        }
+        .page-loading.active > .page-loading-inner {
+            opacity: 1;
+        }
+        .page-loading-inner > span {
+            display: block;
+            font-size: 1rem;
+            font-weight: normal;
+            color: #9397ad;
+        }
+        [data-bs-theme="dark"] .page-loading-inner > span {
+            color: #fff;
+            opacity: .6;
+        }
+        .page-spinner {
+            display: inline-block;
+            width: 2.75rem;
+            height: 2.75rem;
+            margin-bottom: .75rem;
+            vertical-align: text-bottom;
+            border: .15em solid #b4b7c9;
+            border-right-color: transparent;
+            border-radius: 50%;
+            -webkit-animation: spinner .75s linear infinite;
+            animation: spinner .75s linear infinite;
+        }
+        [data-bs-theme="dark"] .page-spinner {
+            border-color: rgba(255,255,255,.4);
+            border-right-color: transparent;
+        }
+        @-webkit-keyframes spinner {
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+        @keyframes spinner {
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+        .legal-section {
+            padding: 5rem 0;
+        }
+        .legal-card {
+            background: #fff;
+            border-radius: 1rem;
+            box-shadow: 0 .5rem 2rem rgba(0,0,0,.08);
+            padding: 3rem;
+            margin-bottom: 2rem;
+        }
+        .legal-card h3 {
+            color: #0b0f19;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid #e2e8f0;
+            font-weight: 700;
+        }
+        .legal-card p {
+            color: #4a5568;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+            font-size: 1.05rem;
+        }
+        .legal-card ul {
+            color: #4a5568;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+            padding-left: 1.5rem;
+        }
+        .legal-card ul li {
+            margin-bottom: 0.75rem;
+        }
+        .disclaimer-box {
+            background: #1a202c;
+            color: #fff;
+            border-radius: 1rem;
+            padding: 3rem;
+            margin-top: 3rem;
+            border: 2px solid #e53e3e;
+        }
+        .disclaimer-box h3 {
+            color: #fc8181;
+            border-bottom-color: rgba(255,255,255,.2);
+        }
+        .disclaimer-box p {
+            color: #e2e8f0;
+        }
+        .disclaimer-box strong {
+            color: #fff;
+        }
+        .breadcrumb-nav {
+            background: #f8f9fa;
+            padding: 2rem 0;
+            margin-bottom: 3rem;
+        }
+    </style>
+    <script>
+        (function () {
+            window.onload = function () {
+                const preloader = document.querySelector('.page-loading');
+                preloader.classList.remove('active');
+                setTimeout(function () {
+                    preloader.remove();
+                }, 1000);
+            };
+        })();
+    </script>
+</head>
+<body>
+    <div class="page-loading active">
+        <div class="page-loading-inner">
+            <div class="page-spinner"></div><span>Loading...</span>
+        </div>
+    </div>
+    <main class="page-wrapper">
+        <header class="header navbar navbar-expand-lg bg-light navbar-sticky">
+            <div class="container px-3">
+                <a href="index.html" class="navbar-brand pe-3">
+                    LLone Stop Cleaning
+                </a>
+                <div id="navbarNav" class="offcanvas offcanvas-end">
+                    <div class="offcanvas-header border-bottom">
+                        <h5 class="offcanvas-title">Menu</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a href="index.html" class="nav-link" aria-current="page">Home</a>
+                            </li>
+                            <!-- <li class="nav-item">
+                                <a href="#" class="nav-link">Services</a>
+                            </li> -->
+                            <li class="nav-item">
+                                <a href="about.html" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="contact.html" class="nav-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </header>
+        <div class="breadcrumb-nav">
+            <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb mb-0">
+                        <li class="breadcrumb-item"><a href="index.html" class="text-decoration-none">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Terms and Conditions</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <section class="legal-section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="text-center mb-5">
+                            <h1 class="display-5 fw-bold mb-3">Terms and Conditions</h1>
+                            <p class="fs-lg text-muted">Effective Date: January 2025</p>
+                        </div>
+                        <div class="legal-card">
+                            <h3>1. Website Usage Agreement</h3>
+                            <p>Welcome to LLone Stop Cleaning. By accessing and using this website, you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service.</p>
+                            <p>This website is provided for informational purposes only. We reserve the right to modify, suspend, or discontinue any part of the website at any time without prior notice.</p>
+                        </div>
+                        <div class="legal-card">
+                            <h3>2. Intellectual Property</h3>
+                            <p>All content included on this site, such as text, graphics, logos, images, and software, is the property of LLone Stop Cleaning or its content suppliers and protected by international copyright laws.</p>
+                            <ul>
+                                <li>You may not reproduce, distribute, or create derivative works from our content without explicit written permission.</li>
+                                <li>Trademarks and service marks are owned by LLone Stop Cleaning.</li>
+                                <li>Unauthorized use of our materials may violate copyright and trademark laws.</li>
+                            </ul>
+                        </div>
+                        <div class="legal-card">
+                            <h3>3. User Conduct</h3>
+                            <p>You agree to use this website only for lawful purposes. You are prohibited from posting on or transmitting through this site any material that is threatening, libelous, abusive, harassing, defamatory, vulgar, obscene, or otherwise objectionable.</p>
+                            <p>We reserve the right to terminate your access to the website if you violate these conduct policies.</p>
+                        </div>
+                        <div class="legal-card">
+                            <h3>4. Privacy Policy</h3>
+                            <p>Your use of this website is also governed by our Privacy Policy. By using the site, you consent to the collection and use of information in accordance with our privacy practices. We are committed to protecting your personal information.</p>
+                        </div>
+                        <div class="legal-card">
+                            <h3>5. Third-Party Links</h3>
+                            <p>This website may contain links to third-party websites that are not owned or controlled by LLone Stop Cleaning. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites.</p>
+                            <p>You acknowledge and agree that we shall not be liable for any damage or loss caused by the use of any such third-party content or services.</p>
+                        </div>
+                        <div class="legal-card">
+                            <h3>6. Modifications to Terms</h3>
+                            <p>LLone Stop Cleaning reserves the right to change these terms and conditions at any time without prior notice. Your continued use of the website following any changes indicates your acceptance of the new terms.</p>
+                            <p>It is your responsibility to check this page periodically for changes.</p>
+                        </div>
+                        <div class="disclaimer-box">
+                            <h3>⚠️ IMPORTANT DISCLAIMER & LIMITATION OF LIABILITY</h3>
+                            <p><strong>NO WARRANTIES:</strong> This website and all information contained herein are provided on an "AS IS" and "AS AVAILABLE" basis without any warranties of any kind, either express or implied. To the fullest extent permitted by law, LLone Stop Cleaning disclaims all warranties, express or implied, including but not limited to implied warranties of merchantability and fitness for a particular purpose.</p>
+                            
+                            <p class="mt-4"><strong>NO RESPONSIBILITY:</strong> LLone Stop Cleaning shall not be liable for any damages of any kind arising from the use of this site, including but not limited to direct, indirect, incidental, punitive, and consequential damages. This includes any errors or omissions in any content, or any loss or damage of any kind incurred as a result of the use of any content posted, transmitted, or otherwise made available via the site.</p>
+                            
+                            <p class="mt-4"><strong>USE AT YOUR OWN RISK:</strong> You expressly understand and agree that your use of this website is at your sole risk. We are not responsible for any decisions made or actions taken based on the information provided on this website.</p>
+                            
+                            <p class="mt-4"><strong>NO LEGAL ADVICE:</strong> The information provided on this website does not constitute legal, financial, or professional advice. You should consult with a qualified professional for advice specific to your situation.</p>
+                            
+                            <p class="mt-4"><strong>INDEMNIFICATION:</strong> You agree to defend, indemnify, and hold harmless LLone Stop Cleaning, its officers, directors, employees, and agents from and against any claims, liabilities, damages, judgments, awards, losses, costs, expenses, or fees arising out of or relating to your violation of these terms or your use of the website.</p>
+                            
+                            <p class="mt-4 fs-sm opacity-75">By using this website, you acknowledge that you have read this disclaimer, understand it, and agree to be bound by it.</p>
+                        </div>
+                        <div class="text-center mt-5">
+                            <p class="text-muted mb-3">Questions about these terms?</p>
+                            <a href="contact.html" class="btn btn-primary btn-lg">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer bg-dark pt-5 pb-4 pb-lg-5" data-bs-theme="dark">
+        <div class="container pt-lg-4">
+            <div class="row pb-5">
+                <div class="col-lg-4 col-md-6">
+                    <div class="navbar-brand text-dark p-0 me-0 mb-3 mb-lg-4">
+                        LLone Stop Cleaning
+                    </div>
+                    <p class="fs-sm text-light opacity-70 pb-lg-3 mb-4">LLone Stop Cleaning provides professional residential and commercial cleaning services. We are committed to delivering exceptional results and customer satisfaction on every job.</p>
+                </div>
+                <div class="col-xl-6 col-lg-7 col-md-5 offset-xl-2 offset-md-1 pt-4 pt-md-1 pt-lg-0">
+                    <div id="footer-links" class="row">
+                        <div class="col-lg-4">
+                            <h6 class="mb-2">
+                                <a href="#useful-links" class="d-block text-dark dropdown-toggle d-lg-none py-2" data-bs-toggle="collapse">Useful Links</a>
+                            </h6>
+                            <div id="useful-links" class="collapse d-lg-block" data-bs-parent="#footer-links">
+                                <ul class="nav flex-column pb-lg-1 mb-lg-3">
+                                    <li class="nav-item"><a href="index.html" class="nav-link d-inline-block px-0 pt-1 pb-2">Home</a></li>
+                                    <!-- <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Services</a></li> -->
+                                    <li class="nav-item"><a href="about.html" class="nav-link d-inline-block px-0 pt-1 pb-2">About Us</a></li>
+                                    <li class="nav-item"><a href="contact.html" class="nav-link d-inline-block px-0 pt-1 pb-2">Contact Us</a></li>
+                                </ul>
+                                <ul class="nav flex-column mb-2 mb-lg-0">
+                                    <li class="nav-item"><a href="terms.html" class="nav-link d-inline-block px-0 pt-1 pb-2">Terms & Conditions</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-3">
+                            <h6 class="mb-2">
+                                <a href="#social-links" class="d-block text-dark dropdown-toggle d-lg-none py-2" data-bs-toggle="collapse">Socials</a>
+                            </h6>
+                            <div id="social-links" class="collapse d-lg-block" data-bs-parent="#footer-links">
+                                <ul class="nav flex-column mb-2 mb-lg-0">
+                                    <li class="nav-item"><a href="https://www.facebook.com/llonestopcleaningcorp" class="nav-link d-inline-block px-0 pt-1 pb-2">Facebook</a></li>
+                                    <li class="nav-item"><a href="https://www.instagram.com/llonestopcleaningcorp" class="nav-link d-inline-block px-0 pt-1 pb-2">Instagram</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-5 pt-2 pt-lg-0">
+                            <h6 class="mb-2">Contact Us</h6>
+                            <a href="mailto:ll1stopcleaning@gmail.com" class="fw-medium">ll1stopcleaning@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="nav d-block fs-xs text-center text-md-start pb-2 pb-lg-0 mb-0">
+                <span class="text-light opacity-50">&copy; All Rights Reserved L & L ONE STOP CLEANING, CORP. Powered by </span>
+                <a class="nav-link d-inline-block p-0" href="https://www.bistwork.com" target="_blank" rel="noopener">Bistwork</a>
+            </p>
+        </div>
+    </footer>
+    <a href="#top" class="btn-scroll-top" data-scroll>
+        <span class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span>
+        <i class="btn-scroll-top-icon bx bx-chevron-up"></i>
+    </a>
+    <script src="assets/vendor/jarallax/dist/jarallax.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/theme.min.js"></script>
+</body>
+</html>
